@@ -22,7 +22,7 @@ class SplashViewModel @Inject constructor():ViewModel() {
     init {
         viewModelScope.launch {
             withContext(Dispatchers.IO){
-                delay(4000)
+                delay(2000)
             }
             _launchNextScreen.value = Unit
         }

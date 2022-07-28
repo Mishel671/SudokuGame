@@ -12,11 +12,31 @@
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_chooseGameFragment"
-            app:destination="@id/chooseGameFragment" />
+            app:destination="@id/chooseGameFragment"
+            app:popUpTo="@id/nav_graph" />
     </fragment>
     <fragment
         android:id="@+id/chooseGameFragment"
-        android:name="ru.dzyubamichael.sudokugameapp.presentation.ChooseGameFragment"
+        android:name="ru.dzyubamichael.sudokugameapp.presentation.choosegame.ChooseGameFragment"
         android:label="fragment_choose_game"
-        tools:layout="@layout/fragment_choose_game" />
+        tools:layout="@layout/fragment_choose_game" >
+        <action
+            android:id="@+id/action_chooseGameFragment_to_gameFragment"
+
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="ru.dzyubamichael.sudokugameapp.presentation.game.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <argument
+            android:name="launchMode"
+            app:argType="string" />
+        <argument
+            android:name="gameItem"
+            app:argType="ru.dzyubamichael.sudokugameapp.domain.GameItem"
+            app:nullable="true" />
+
+    </fragment>
 </navigation>

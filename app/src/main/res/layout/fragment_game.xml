@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.game.GameFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ru.dzyubamichael.sudokugameapp.presentation.game.customview.SudokuBoardView
+            android:id="@+id/sudokuBoard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            app:backgroundColor="@color/sudoku_background_color"
+            app:boardColor="@color/sudoku_board_color"
+            app:cellFillColor="@color/cell_fill_color"
+            app:cellsHighLightColor="@color/cells_high_light_color"
+            app:letterColor="@color/letter_color"
+            app:letterColorSolve="@color/letter_color_solve" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/setting_btn_container"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvContainer"
+        app:layout_constraintVertical_bias="0.3">
+
+        <ImageView
+            android:id="@+id/btnClean"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_clean"
+            app:tint="@color/sudoku_setting_btn_color" />
+
+        <ImageView
+            android:id="@+id/btnSolve"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_solve"
+            app:tint="@color/sudoku_setting_btn_color" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvContainer"
+        app:layout_constraintVertical_bias="0.7">
+
+        <TextView
+            android:id="@+id/btnOne"
+            style="@style/numberTextViewStyle"
+            android:text="@string/one" />
+
+        <TextView
+            android:id="@+id/btnTwo"
+            style="@style/numberTextViewStyle"
+            android:text="@string/two" />
+
+        <TextView
+            android:id="@+id/btnThree"
+            style="@style/numberTextViewStyle"
+            android:text="@string/three" />
+
+        <TextView
+            android:id="@+id/btnFour"
+            style="@style/numberTextViewStyle"
+            android:text="@string/four" />
+
+        <TextView
+            android:id="@+id/btnFive"
+            style="@style/numberTextViewStyle"
+            android:text="@string/five" />
+
+        <TextView
+            android:id="@+id/btnSix"
+            style="@style/numberTextViewStyle"
+            android:text="@string/six" />
+
+        <TextView
+            android:id="@+id/btnSeven"
+            style="@style/numberTextViewStyle"
+            android:text="@string/seven" />
+
+        <TextView
+            android:id="@+id/btnEight"
+            style="@style/numberTextViewStyle"
+            android:text="@string/eight" />
+
+        <TextView
+            android:id="@+id/btnNine"
+            style="@style/numberTextViewStyle"
+            android:text="@string/nine" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

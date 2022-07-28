@@ -9,11 +9,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sudoku_game"
-        android:textSize="30sp"
-        android:fontFamily="@font/inter_700"
         android:layout_marginBottom="60dp"
+        android:fontFamily="@font/inter_700"
+        android:text="@string/sudoku_game"
         android:textColor="@color/splash_title"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/cv_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

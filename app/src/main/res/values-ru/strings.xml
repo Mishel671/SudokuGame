@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Sudoku</string>
-    <string name="sudoku_game">Sudoku</string>
-    <string name="new_game">New Game</string>
-    <string name="saved_game">Your games will be saved here</string>
+    <string name="app_name">Судоку</string>
+    <string name="sudoku_game">Судоку</string>
+    <string name="new_game">Новая игра</string>
+    <string name="saved_game">Ваши игры будут сохраняться здесь</string>
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
@@ -12,5 +12,5 @@
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
-    <string name="game_title_item">Game %s</string>
+    <string name="game_title_item">Игра %s</string>
 </resources>

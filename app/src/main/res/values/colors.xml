@@ -9,4 +9,17 @@
     <color name="white">#FFFFFFFF</color>
     <color name="status_bar">#FFFFFFFF</color>
     <color name="splash_title">#84dfff</color>
+    <color name="collapsing_toolbar_color">#FFFFFFFF</color>
+    <color name="image_container_color">#FFFFFF</color>
+    <color name="sudoku_board_color">#1E2A3E</color>
+    <color name="sudoku_background_color">#FFFFFF</color>
+    <color name="cell_fill_color">#CEF3FF</color>
+    <color name="cells_high_light_color">#84dfff</color>
+    <color name="number_bg_color">#FFFFFF</color>
+    <color name="number_text_color">#84dfff</color>
+    <color name="sudoku_setting_btn_color">#84dfff</color>
+    <color name="letter_color_solve">#84dfff</color>
+    <color name="letter_color">#1E2A3E</color>
+    <color name="btn_new_game_color">#84dfff</color>
+    <color name="btn_new_game_text_color">#FFFFFFFF</color>
 </resources>
