@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/btn_new_game.xml" value="0.147" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/btn_new_game_pressed.xml" value="0.147" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/btn_new_game_selector.xml" value="0.147" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/delete_item_bg.xml" value="0.147" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/image_container_bg.xml" value="0.1365" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/number_bg.xml" value="0.1365" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/number_btn_selector.xml" value="0.147" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/drawable/setting_btn_container.xml" value="0.1365" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/layout/fragment_choose_game.xml" value="0.176" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/layout/fragment_game.xml" value="0.2" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/layout/fragment_splash.xml" value="0.2390625" />
+        <entry key="..\:/Users/dzuba/AndroidStudioProjects/SudokuGameApp/app/src/main/res/layout/game_item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
